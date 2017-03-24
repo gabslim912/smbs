@@ -1,27 +1,213 @@
-<header class="site-header" role="banner">
+<div class="header-container">
+        
+        <!-- header-top start -->
+        <!-- classes:  -->
+        <!-- "dark": dark version of header top e.g. class="header-top dark" -->
+        <!-- "colored": colored version of header top e.g. class="header-top colored" -->
+        <!-- ================ -->
+        <div class="header-top colored ">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-3 col-sm-6 col-md-6">
+                <!-- header-top-first start -->
+                <!-- ================ -->
+                <div class="header-top-first clearfix">
+                  <ul class="social-links circle small clearfix hidden-xs">
+                    <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                  </ul>
+                  <div class="social-links hidden-lg hidden-md hidden-sm circle small">
+                    <div class="btn-group dropdown">
+                      <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-share-alt"></i></button>
+                      <ul class="dropdown-menu dropdown-animation">
+                        <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <ul class="list-inline hidden-sm hidden-xs">
+                    <li><i class="fa fa-map-marker pr-5 pl-10"></i>{{ site.address }}</li>
+                    
+                  </ul>
+                </div>
+                <!-- header-top-first end -->
+              </div>
+              <div class="col-xs-9 col-sm-6 col-md-6">
 
-  <div class="wrapper">
+                <!-- header-top-second start -->
+                <!-- ================ -->
+                <div id="header-top-second"  class="clearfix">
 
-    <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+                  <!-- header top dropdowns start -->
+                  <!-- ================ -->
+                  <div class="header-top-dropdown text-right">
+                    <ul class="list-inline hidden-sm hidden-xs">
+                    <li><i class="fa fa-phone pr-5 pl-10"></i>{{ site.telephone }}</li>
+                    <li><i class="fa fa-envelope-o pr-5 pl-10"></i> {{ site.email }}</li>
+                  </ul>
+                  </div>
+                  <!--  header top dropdowns end -->
+                </div>
+                <!-- header-top-second end -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- header-top end -->
+        
+        <!-- header start -->
+        <!-- classes:  -->
+        <!-- "fixed": enables fixed navigation mode (sticky menu) e.g. class="header fixed clearfix" -->
+        <!-- "dark": dark version of header e.g. class="header dark clearfix" -->
+        <!-- "full-width": mandatory class for the full-width menu layout -->
+        <!-- "centered": mandatory class for the centered logo layout -->
+        <!-- ================ --> 
+        <header class="header  fixed    clearfix">
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 ">
+                <!-- header-left start -->
+                <!-- ================ -->
+                <div class="header-left clearfix">
+                  
+                  <!-- header dropdown buttons -->
+                  <div class="header-dropdown-buttons visible-xs">
+                    <div class="btn-group dropdown">
+                      <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="icon-search"></i></button>
+                      <ul class="dropdown-menu dropdown-menu-right dropdown-animation">
+                        <li>
+                          <form role="search" class="search-box margin-clear">
+                            <div class="form-group has-feedback">
+                              <input type="text" class="form-control" placeholder="Search">
+                              <i class="icon-search form-control-feedback"></i>
+                            </div>
+                          </form>
+                        </li>
+                      </ul>
+                    </div>
+                    
+                  </div>
+                  <!-- header dropdown buttons end-->
+                  
+                  <!-- logo -->
+                  <div id="logo" class="logo">
+                    <a href="index.html"><img id="logo_img" src="images/logo_light_blue.png" alt="The Project"></a>
+                  </div>
 
-    <nav class="site-nav">
-      <span class="menu-icon">
-        <svg viewBox="0 0 18 15" width="18px" height="15px">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </span>
+                  <!-- name-and-slogan -->
+                  <div class="site-slogan">
+                    Multipurpose HTML5 Template
+                  </div>
 
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {% endif %}
-        {% endfor %}
+                </div>
+                <!-- header-left end -->
+
+              </div>
+              <div class="col-md-9">
+          
+                <!-- header-right start -->
+                <!-- ================ -->
+                <div class="header-right clearfix">
+                  
+                <!-- main-navigation start -->
+                <!-- classes: -->
+                <!-- "onclick": Makes the dropdowns open on click, this the default bootstrap behavior e.g. class="main-navigation onclick" -->
+                <!-- "animated": Enables animations on dropdowns opening e.g. class="main-navigation animated" -->
+                <!-- "with-dropdown-buttons": Mandatory class that adds extra space, to the main navigation, for the search and cart dropdowns -->
+                <!-- ================ -->
+                <div class="main-navigation  animated with-dropdown-buttons">
+
+                  <!-- navbar start -->
+                  <!-- ================ -->
+                  <nav class="navbar navbar-default" role="navigation">
+                    <div class="container-fluid">
+
+                      <!-- Toggle get grouped for better mobile display -->
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        
+                      </div>
+
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+                      <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                        <!-- main-menu -->
+                        <ul class="nav navbar-nav ">
+
+                          <!-- mega-menu start -->
+                          <li class=" active mega-menu">
+                            <a class="scroll-to" href="#home">Accueil</a>
+                            
+                          </li>
+                          <!-- mega-menu end -->
+                          <!-- mega-menu start -->
+                          <li class="" >
+                            <a class="scroll-to" href="#products">Products</a>
+                            
+                          </li>
+                          <!-- mega-menu end -->
+                          <li class=" ">
+                            <a class="scroll-to" href="#brands">Brands</a>
+                            
+                          </li>
+                          <!-- mega-menu start -->
+                          <li class="">
+                            <a class="scroll-to" href="#categories" >Categories</a>
+                            
+                          </li>
+                          <!-- mega-menu end -->
+                          <li class=" ">
+                            <a class="scroll-to" href="#footer">Contact</a>
+                            
+                          </li>
+                          
+                          
+                        </ul>
+                        <!-- main-menu end -->
+                        
+                        <!-- header dropdown buttons -->
+                        <div class="header-dropdown-buttons hidden-xs ">
+                          <div class="btn-group dropdown">
+                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="icon-search"></i></button>
+                            <ul class="dropdown-menu dropdown-menu-right dropdown-animation">
+                              <li>
+                                <form role="search" class="search-box margin-clear">
+                                  <div class="form-group has-feedback">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                    <i class="icon-search form-control-feedback"></i>
+                                  </div>
+                                </form>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <!-- header dropdown buttons end-->
+                        
+                      </div>
+
+                    </div>
+                  </nav>
+                  <!-- navbar end -->
+
+                </div>
+                <!-- main-navigation end -->
+                </div>
+                <!-- header-right end -->
+          
+              </div>
+            </div>
+          </div>
+          
+        </header>
+        <!-- header end -->
       </div>
-    </nav>
-
   </div>
 
 </header>

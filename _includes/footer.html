@@ -1,46 +1,138 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
+      <!-- footer top start -->
+      <!-- ================ -->
+      <div class="default-bg  dark-hovered footer-top animated-text">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="call-to-action text-center">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2>VENEZ VISITER NOTRE SHOWROOM</h2>
+                    <h2>{{ site.showroom }} </h2>
+                  </div>
+                  <div class="col-sm-4">
+                    <p class="mt-10"><a href="#" class="btn btn-animated btn-lg btn-gray-transparent ">Purchase<i class="fa fa-cart-arrow-down pl-20"></i></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <!-- footer top end -->
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
+      <!-- footer start (Add "dark" class to #footer in order to enable dark footer) -->
+      <!-- ================ -->
+      <footer id="footer" class="clearfix ">
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
+        <!-- .footer start -->
+        <!-- ================ -->
+        <div class="footer">
+          <div class="container">
+            <div class="footer-inner">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="footer-content">
+                    <div class="logo-footer"><img id="logo-footer" src="images/logo_light_blue.png" alt=""></div>
+                    <p>{{ site.description }}</p>
+                    <div class="icons-block mt-10 mb-10">
+                      <i class="fa fa-cc-paypal"></i>
+                      <i class="fa fa-cc-amex"></i>
+                      <i class="fa fa-cc-discover"></i>
+                      <i class="fa fa-cc-mastercard"></i>
+                      <i class="fa fa-cc-visa"></i>
+                      <i class="fa fa-cc-stripe"></i>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                <div class="col-md-6">
+                  <div class="footer-content">
+                    <h2 class="title text-default">Réseaux sociaux</h2>
+                    <div class="separator-2"></div>
+                    
+                    <ul class="social-links circle animated-effect-1">
+                      <li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                      <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+                      <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                      
+                    </ul>
+                    <div class="separator-2"></div>
+                    <ul class="list-icons">
+                      <li><i class="fa fa-map-marker pr-10 text-default"></i> {{ site.address }}</li>
+                      <li><i class="fa fa-map-marker pr-10 text-default"></i> Show room : {{ site.showroom }}</li>
+                      <li><i class="fa fa-phone pr-10 text-default"></i> {{ site.telephone }}</li>
+                      <li><a href="mailto:{{ site.email }}"><i class="fa fa-envelope-o pr-10"></i>{{ site.email }}</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .footer end -->
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
+        <!-- .subfooter start -->
+        <!-- ================ -->
+        <div class="subfooter">
+          <div class="container">
+            <div class="subfooter-inner">
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="text-center">Copyright © 2016 The Project by <a target="_blank" href="http://revovision.ca">REVOVISION</a>. All Rights Reserved</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .subfooter end -->
+
+      </footer>
+      <!-- footer end -->
+      
     </div>
+    <!-- page-wrapper end -->
 
-  </div>
-
-</footer>
+    <!-- JavaScript files placed at the end of the document so the pages load faster -->
+    <!-- ================================================== -->
+    <!-- Jquery and Bootstap core js files -->
+    <script type="text/javascript" src="/plugins/jquery.min.js"></script>
+    <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Modernizr javascript -->
+    <script type="text/javascript" src="/plugins/modernizr.js"></script>
+    <!-- jQuery Revolution Slider  -->
+    <script type="text/javascript" src="/plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- Isotope javascript -->
+    <script type="text/javascript" src="/plugins/isotope/isotope.pkgd.min.js"></script>
+    <!-- Magnific Popup javascript -->
+    <script type="text/javascript" src="/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Appear javascript -->
+    <script type="text/javascript" src="/plugins/waypoints/jquery.waypoints.min.js"></script>
+    <!-- Count To javascript -->
+    <script type="text/javascript" src="/plugins/jquery.countTo.js"></script>
+    <!-- Parallax javascript -->
+    <script src="/plugins/jquery.parallax-1.1.3.js"></script>
+    <!-- Contact form -->
+    <script src="/plugins/jquery.validate.js"></script>
+    <!-- Background Video -->
+    <script src="/plugins/vide/jquery.vide.js"></script>
+    <!-- Owl carousel javascript -->
+    <script type="text/javascript" src="/plugins/owl-carousel/owl.carousel.js"></script>
+    <!-- SmoothScroll javascript -->
+    <script type="text/javascript" src="/plugins/jquery.browser.js"></script>
+    <script type="text/javascript" src="/plugins/SmoothScroll.js"></script>
+    <!-- Initialization of Plugins -->
+    <script type="text/javascript" src="/js/template.js"></script>
+    <!-- Custom Scripts -->
+    <script type="text/javascript" src="/js/custom.js"></script>
+    <script type="text/javascript">
+   // scroll to
+    $('.scroll-to').on('click', function() {
+        $('html, body').animate({
+            scrollTop: $(this.hash).offset().top - 5
+        }, 1000);
+        return false;
+    });
+</script>
