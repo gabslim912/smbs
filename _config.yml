@@ -11,6 +11,9 @@ collections:
   marques:
     title: marques
     output: true
+  produits:
+    title: produits
+    output: true
   sliders:
     title: sliders
     output: true
