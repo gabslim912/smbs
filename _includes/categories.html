@@ -9,77 +9,19 @@
           </div>
         </div>
         <div class="owl-carousel carousel-autoplay pl-10 pr-10">
-          <div class="listing-item pl-10 pr-10 mb-20">
+        {% for category in site.categories %}
+          <div class="listing-item pl-10 pr-10 mb-20" >
             <div class="overlay-container bordered overlay-visible">
-              <img src="images/cat1.png" alt="">
+              <img src="{{ category.image }}" alt="" style="width: 297px; height: 297px;">
               <a class="overlay-link" href="#"><i class="fa fa-plus"></i></a>
               <div class="overlay-bottom">
                 <div class="text">
-                  <h3 class="title">Category Title</h3>
+                  <h3 class="title">{{ category.title }}</h3>
                   
                 </div>
               </div>
             </div>
           </div>
-          <div class="listing-item pl-10 pr-10 mb-20">
-            <div class="overlay-container bordered overlay-visible">
-              <img src="images/category-2.jpg" alt="">
-              <a class="overlay-link" href="#"><i class="fa fa-plus"></i></a>
-              <div class="overlay-bottom">
-                <div class="text">
-                  <h3 class="title">Category Title</h3>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="listing-item pl-10 pr-10 mb-20">
-            <div class="overlay-container bordered overlay-visible">
-              <img src="images/category-3.jpg" alt="">
-              <a class="overlay-link" href="#"><i class="fa fa-plus"></i></a>
-              <div class="overlay-bottom">
-                <div class="text">
-                  <h3 class="title">Category Title</h3>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="listing-item pl-10 pr-10 mb-20 mb-20">
-            <div class="overlay-container bordered overlay-visible">
-              <img src="images/category-4.jpg" alt="">
-              <a class="overlay-link" href="#"><i class="fa fa-plus"></i></a>
-              <div class="overlay-bottom">
-                <div class="text">
-                  <h3 class="title">Category Title</h3>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="listing-item pl-10 pr-10 mb-20 mb-20">
-            <div class="overlay-container bordered overlay-visible">
-              <img src="images/category-5.jpg" alt="">
-              <a class="overlay-link" href="#"><i class="fa fa-plus"></i></a>
-              <div class="overlay-bottom">
-                <div class="text">
-                  <h3 class="title">Category Title</h3>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="listing-item pl-10 pr-10 mb-20 mb-20">
-            <div class="overlay-container bordered overlay-visible">
-              <img src="images/category-6.jpg" alt="">
-              <a class="overlay-link" href="#"><i class="fa fa-plus"></i></a>
-              <div class="overlay-bottom">
-                <div class="text">
-                  <h3 class="title">Category Title</h3>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
+        {% endfor %}
         </div>
       </section>
