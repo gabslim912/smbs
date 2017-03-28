@@ -1,5 +1,5 @@
 ---
-title: Your awesome title
+title: SMBS GROUPE
 timezone: UTC
 collections:
   posts:
@@ -39,3 +39,7 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
+logo: "/uploads/logo.png"
+parallax1: "/uploads/slider12.jpg"
+parallax2: "/uploads/slider12.jpg"
+parallax3: "/uploads/slider12.jpg"
