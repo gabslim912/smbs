@@ -7,5 +7,6 @@ faux_prix: 500000FCFA
 prix: 425000FCFA
 label: 15% OFF
 image: "/uploads/shopslide1.jpg"
+layout: product
 ---
 
