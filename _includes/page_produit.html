@@ -1,0 +1,83 @@
+<!-- breadcrumb start -->
+			<!-- ================ -->
+			<div class="breadcrumb-container">
+				<div class="container">
+					<ol class="breadcrumb">
+						<li><i class="fa fa-home pr-10"></i><a href="index.html">Home</a></li>
+						<li class="active">{{ page.title }}</li>
+					</ol>
+				</div>
+			</div>
+			<!-- breadcrumb end -->
+
+			<!-- main-container start -->
+			<!-- ================ -->
+			<section class="main-container">
+
+				<div class="container">
+					<div class="row">
+
+						<!-- main start -->
+						<!-- ================ -->
+						<div class="main col-md-12">
+
+							<!-- page-title start -->
+							<!-- ================ -->
+							<h1 class="page-title">{{ page.title }}</h1>
+							<div class="separator-2"></div>
+							<!-- page-title end -->
+
+							<div class="row">
+								<div class="col-md-4">
+									<!-- pills start -->
+									<!-- ================ -->
+									<!-- Nav tabs -->
+									<ul class="nav nav-pills" role="tablist">
+										<li class="active"><a href="#pill-1" role="tab" data-toggle="tab" title="images"><i class="fa fa-camera pr-5"></i> Photo</a></li>
+										<li><a href="#pill-2" role="tab" data-toggle="tab" title="video"><i class="fa fa-video-camera pr-5"></i> Video</a></li>
+									</ul>
+									<!-- Tab panes -->
+									<div class="tab-content clear-style">
+										<div class="tab-pane active" id="pill-1">
+											<div class="owl-carousel content-slider-with-large-controls">
+											{% for image in page.images %}
+												<div class="overlay-container overlay-visible">
+													<img src="{{ page.image }}" alt="">
+													<a href="{{ page.image }}" class="popup-img overlay-link" title="{{ page.title }}"><i class="icon-plus-1"></i></a>
+												</div>
+											{% endfor %}	
+											</div>
+										</div>
+										<div class="tab-pane" id="pill-2">
+											<div class="embed-responsive embed-responsive-16by9">
+												<iframe class="embed-responsive-item" src="{{ page.video }}"></iframe>
+												<p>Vidéo descriptive du produit {{ page.title }}.</p>
+											</div>
+										</div>
+									</div>
+									<!-- pills end -->
+								</div>
+								<div class="col-md-8 pv-30">
+									<h2>Description</h2>
+									<p>{{ page.content }}</p>
+									<hr class="mb-10">
+									
+									
+									<div class="light-gray-bg p-20 bordered clearfix">
+										<span class="product price"><i class="icon-tag pr-10"></i>Pour voir la fiche technique</span>
+										<div class="">
+										
+										<a href="{{ page.fiche }}" class="popup-img overlay-link">Read More <i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- main end -->
+
+					</div>
+				</div>
+			</section>
+			<!-- main-container end -->
+
+			
