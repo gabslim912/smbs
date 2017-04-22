@@ -7,7 +7,7 @@ faux_prix: 500000FCFA
 prix: 425000FCFA
 label: 15% OFF
 image: "/uploads/shopslide1.jpg"
-fiche: "/uploads/MEKANO-RIBASS-1400-02.pdf"
+fiche: "/uploads/fiche.jpg"
 layout: product
 ---
 
