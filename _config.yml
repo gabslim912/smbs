@@ -31,7 +31,7 @@ defaults:
     path: ''
     type: categories
   values:
-    layout: categories
+    layout: category
 email: ali.karaki@smbs.com
 address: 19, Rue Robert Brun
 showroom: Rue 6 Felix Éboué
