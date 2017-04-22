@@ -26,14 +26,17 @@ defaults:
     type: produits
   values:
     layout: product
+    defaults:
+- scope:
+    path: ''
+    type: categories
+  values:
+    layout: categories
 email: ali.karaki@smbs.com
 address: 19, Rue Robert Brun
 showroom: Rue 6 Felix Éboué
 telephone: "+221 33 822 15 11"
-description: 'Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-
+description: 'Spécialisée dans le commerce de la distribution et de l’exportation d’équipements de boulangerie, de pâtisserie, d’hôtellerie, de restauration (Traiteurs, Points Chauds) issue de l’importation directement en enfin fournisseur matériel BTP et des groupes électrogènes importés.
 '
 baseurl: 
 url: 
