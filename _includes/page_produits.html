@@ -1,0 +1,56 @@
+<!-- banner start -->
+      <!-- ================ -->
+      <div class="banner dark-translucent-bg" style="background-image:url('{{ site.parallax1 }}'); background-position: 50% 30%;">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 text-center col-md-offset-2 pv-20">
+              <h1 class="page-title text-center">Tous nos produits par catégories</h1>
+              <div class="separator"></div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner end --><!-- main-container start -->
+<!-- ================ -->
+<section class="main-container">
+
+	<div class="container">
+		<div class="row">
+
+			<!-- main start -->
+			<!-- ================ -->
+			<div class="main col-md-12">
+				{% for category in site.categories %}
+				<div class="image-box style-3-b">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="overlay-container">
+								<img src="{{ category.image }}" alt="" style="width: 244px; height: 244px">
+								<div class="overlay-to-top">
+									<p class="small margin-clear">{{ category.title }}</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 ">
+							<div class="body">
+								<h3 class="title"><a href="portfolio-item.html">{{ category.title }}</a></h3>
+								
+								<div class="separator-2"></div>
+								<p class="mb-10">{{ category.content }}</p>
+								<a href="{{ category.url }}" class="btn btn-default btn-sm btn-hvr hvr-shutter-out-horizontal margin-clear" target="blank">Voir tous les produits de la gamme {{ category.title }}<i class="fa fa-arrow-right pl-10"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+				
+
+			</div>
+			<!-- main end -->
+
+		</div>
+	</div>
+</section>
+<!-- main-container end -->

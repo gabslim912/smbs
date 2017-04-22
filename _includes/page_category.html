@@ -1,0 +1,49 @@
+<!-- banner start -->
+      <!-- ================ -->
+      <div class="banner dark-translucent-bg" style="background-image:url('{{ site.parallax1 }}'); background-position: 50% 30%;">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 text-center col-md-offset-2 pv-20">
+              <h1 class="page-title text-center">Produits de la gamme {{ page.title }}</h1>
+              <div class="separator"></div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner end --><!-- main-container start --><section class="section light-gray-bg clearfix">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <!-- pills start -->
+        
+        <!-- Tab panes -->
+        <div class="tab-content clear-style">
+          <div class="tab-pane active" id="pill-1">
+            <div class="row masonry-grid-fitrows grid-space-10">
+            {% for produit in site.produits %}
+              <div class="col-md-3 col-sm-6 masonry-grid-item">
+                <div class="listing-item white-bg bordered mb-20">
+                  <div class="overlay-container">
+                    <img src="{{ produit.image }}" alt="" style="width: 276px; height: 276px;">
+                    <a class="overlay-link popup-img-single" href="{{ produit.image }}"><i class="fa fa-search-plus"></i></a>
+                    <span class="badge">{{ produit.label }}</span>
+                    
+                  </div>
+                  <div class="body">
+                    <h3><a href="{{ produit.url }}">{{ produit.title }}</a></h3>
+                    
+                  </div>
+                </div>
+              </div>
+            {% endfor %} 
+            </div>
+          </div>
+          
+        </div>
+        <!-- pills end -->
+      </div>
+    </div>
+  </div>
+</section>

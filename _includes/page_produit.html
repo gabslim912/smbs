@@ -40,12 +40,11 @@
 									<div class="tab-content clear-style">
 										<div class="tab-pane active" id="pill-1">
 											<div class="owl-carousel content-slider-with-large-controls">
-											{% for image in page.images %}
-												<div class="overlay-container overlay-visible">
+											<div class="overlay-container overlay-visible">
 													<img src="{{ page.image }}" alt="">
 													<a href="{{ page.image }}" class="popup-img overlay-link" title="{{ page.title }}"><i class="icon-plus-1"></i></a>
 												</div>
-											{% endfor %}	
+												
 											</div>
 										</div>
 										<div class="tab-pane" id="pill-2">
@@ -61,7 +60,7 @@
 									<h2>Description</h2>
 									<p>{{ page.content }}</p>
 									<hr class="mb-10">
-									
+									<h2>CATEGORIES: {{ page.categories }}</h2>
 									
 									<div class="light-gray-bg p-20 bordered clearfix">
 										<span class="product price"><i class="icon-tag pr-10"></i>Pour voir la fiche technique</span>
