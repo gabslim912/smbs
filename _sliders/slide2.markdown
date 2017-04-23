@@ -5,4 +5,4 @@ text: Nouvel</span> Arrivage<br> Version Limité
 image: "/uploads/slider13.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Nesciunt, maiores, aliquid. Repellat eum numquam aliquid culpa offici, <br> tenetur fugiat dolorum sapiente eligendi...
+En plus de la vente, la S.M.B.S assure à sa clientèle <br/> l’installation des équipements et un service <br/> après vente permanent.
