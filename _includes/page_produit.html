@@ -56,20 +56,43 @@
 									</div>
 									<!-- pills end -->
 								</div>
-								<div class="col-md-8 pv-30">
+								<div class="col-md-4">
 									<h2>Description</h2>
-									<p>{{ page.content }}</p>
+									<p class="text-justify">{{ page.content }}</p>
 									<hr class="mb-10">
-									<h2>CATEGORIES: {{ page.categories }}</h2>
 									
-									<div class="light-gray-bg p-20 bordered clearfix">
-										<span class="product price"><i class="icon-tag pr-10"></i>Pour voir la fiche technique</span>
-										<div class="">
-										
-										<a href="{{ page.fiche }}" class="popup-img overlay-link">Read More <i class="fa fa-arrow-right"></i></a>
-										</div>
+									
+									<div class="default-bg p-20 bordered clearfix">
+										<span class="product price"><i class="icon-tag pr-10"></i>Bénéficiez d'une réduction de {{ page.label }} à l'achat de ce produit </span>
 									</div>
 								</div>
+								<!-- sidebar start -->
+							<!-- ================ -->
+							
+							<div class="col-md-4 ">
+								<div class="block clearfix">
+									<h3 class="title">Informations</h3>
+									<div class="separator-2"></div>
+									<ul class="list margin-clear">
+										<li><strong>Catégorie: </strong> <span class="text-right">{{ page.categories }}</span></li>
+										<li><strong>Marque: </strong> <span class="text-right">{{ page.marques }}</span></li>
+										
+									</ul>
+								</div>
+								
+								<div class="block clearfix">
+								<h3 class="title">Fiche technique</h3>
+									<div class="separator-2"></div>
+									<div class="overlay-container" style="width: 200px; height: 200px;">
+										<img src="{{ page.fiche }}" alt="">
+										<a href="{{ page.fiche }}" class="overlay-link popup-img-single" title="{{ page.title }}">
+											<i class="fa fa-plus"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+							
+							<!-- sidebar end -->
 							</div>
 						</div>
 						<!-- main end -->

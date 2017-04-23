@@ -13,13 +13,13 @@
           <div class="listing-item pl-10 pr-10 mb-20" >
             <div class="overlay-container bordered overlay-visible">
               <img src="{{ category.image }}" alt="" style="width: 297px; height: 297px;">
-              
+              <a href="{{ category.url }}" target="blank">
               <div class="overlay-bottom">
                 <div class="text">
                   <h3 class="title">{{ category.title }}</h3>
-                  
                 </div>
               </div>
+              </a>
             </div>
           </div>
         {% endfor %}
