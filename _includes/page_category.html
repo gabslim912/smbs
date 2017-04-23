@@ -22,15 +22,15 @@
         <div class="tab-content clear-style">
           <div class="tab-pane active" id="pill-1">
             <div class="row masonry-grid-fitrows grid-space-10">
-            {% assign cat = page.title %}
             
-            {% for produit in site.produits %}
+            {% assign produits = site.produits | where:"categories", page.title %}
+            {% for produit in produits %}
                 <div class="col-md-3 col-sm-6 masonry-grid-item">
                       <div class="listing-item white-bg bordered mb-20">
                         <div class="overlay-container">
                           <img src="{{ produit.image }}" alt="" style="width: 276px; height: 276px;">
                           <a class="overlay-link" href="{{ produit.url }}" target="blank"><i class="fa fa-search-plus"></i></a>
-                          <span class="badge">30% OFF</span>
+                          <span class="badge">{{ produit.label }}</span>
                           <div class="overlay-to-top links">
                             <span class="small">
                               
