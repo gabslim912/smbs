@@ -8,6 +8,7 @@ image: "/uploads/Four%20Salva%20SP-21.jpg"
 fiche: "/uploads/fiche.jpg"
 categories: Fours
 marques: salva
+video: https://www.youtube.com/watch?v=5bgqttXcWoI
 ---
 
 Le four Salva SP21, est un four compact et fiable traduit dans une cuisson régulière et homogénéisée, avec l'obtention de pains brillants, bien développés, avec la texture et la saveur que demande le boulanger le plus exigeant. C'est le SIROCCO EVOLUTION.
