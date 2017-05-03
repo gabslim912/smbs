@@ -1,5 +1,5 @@
 ---
-title: four a sol
+title: four a sol forno
 date: 2017-05-03 15:53:00 Z
 faux prix: 8000000CFA
 prix: 6500000CFA
