@@ -1,5 +1,5 @@
 ---
-title: réfrigérateur a boisson
+title: réfrigérateur a boisson3P1
 date: 2017-05-06 19:52:00 Z
 faux prix: 1200000CFA
 prix: 1000000CFA
