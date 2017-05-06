@@ -4,7 +4,7 @@ date: 2017-05-06 20:14:00 Z
 faux prix: 
 prix: 
 label: 10%
-image: "/uploads/LG430F.png"
+image: "/uploads/41532099-Caravell-frigo-boissons-440x320.jpg"
 fiche: "/uploads/fiche.jpg"
 categories: Froid
 marques: ugur
