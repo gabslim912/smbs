@@ -6,9 +6,9 @@ categories:
 faux_prix: 500000FCFA
 prix: 425000FCFA
 label: 15% OFF
-image: "/uploads/shopslide1.jpg"
+image: "/uploads/Four%20REAL%20FORNI.jpg"
 fiche: "/uploads/fiche.jpg"
 layout: product
 ---
 
-machine panini marque nemox
+Le Four boulangerie rotatif sirocco gaz SP21, est un matériel professionnel boulangerie qui permet ... Four boulangerie Gaz rotatif SALVA 800x1000mm.
