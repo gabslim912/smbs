@@ -11,4 +11,4 @@ fiche: "/uploads/fiche.jpg"
 layout: product
 ---
 
-Le Four boulangerie rotatif sirocco gaz SP21, est un matériel professionnel boulangerie qui permet ... Four boulangerie Gaz rotatif SALVA 800x1000mm.
+Le Four boulangerie rotatif un matériel professionnel boulangerie De part sa grande capacité de production, il convient particulièrement aux boulangeries et/ou pâtisseries semi-industrielles et industrielles.
