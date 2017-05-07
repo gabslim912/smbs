@@ -1,14 +1,14 @@
 ---
-title: vitrine ugur us dtkl
+title: vitrine réfrigérée patisserie1
 date: 2017-04-28 19:32:00 Z
-faux_prix: 850000CFA
-prix: 650000FCA
+faux_prix: 1500000CFA
+prix: 1000000FCA
 label: 10%OFF
-image: "/uploads/LG430F-5a2ab7.png"
+image: "/uploads/vitrine-boulangerie-patisserie-5589149.jpg"
 fiche: "/uploads/fiche.jpg"
 categories: Froid
-marques: ugur
+marques: infrico
 ---
 
-Capacité: 100 litres.Réfrigération ventilé.grilles réglables.Condenseur ventilé.Dégivrage automatique.
+Vitrine horizontale neutre pour exposition et vente pâtisserie Condenseur ventilé.Dégivrage automatique.
 Eclairage horizontal par tube néon à l’intérieur.
