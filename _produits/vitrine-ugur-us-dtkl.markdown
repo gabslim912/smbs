@@ -1,5 +1,5 @@
 ---
-title: vitrine ugur us dtkl
+title: vitrine réfrigérée patisserie1
 date: 2017-04-28 19:32:00 Z
 faux_prix: 1500000CFA
 prix: 1000000FCA
