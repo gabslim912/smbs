@@ -7,7 +7,7 @@ label: 15%
 image: "/uploads/armoire%20deuxportes.jpg"
 fiche: "/uploads/fiche.jpg"
 categories: Froid
-marques: infrico
+marques: frenox
 ---
 
 Classe énergétique : E, Intérieur démontable pour nettoyage parfait, Panneau de contrôle électronique
