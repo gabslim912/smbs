@@ -4,7 +4,7 @@ date: 2017-04-28 17:48:00 Z
 faux_prix: 21000000 FCFA
 prix: 19500000 FCFA
 label: 20 % OFF
-image: "/uploads/Four%20Salva%20SP-21.jpg"
+image: "/uploads/four%20salva.jpg"
 fiche: "/uploads/fiche.jpg"
 categories: Fours
 marques: salva
