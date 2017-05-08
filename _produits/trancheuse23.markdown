@@ -4,7 +4,7 @@ date: 2017-05-08 18:50:00 Z
 faux prix: 2000000CFA
 prix: 1800000CFA
 label: 10%OFF
-image: "/uploads/fiche.jpg"
+image: "/uploads/trancheuse.jpg"
 categories: Equipements
 marques: salva
 ---
