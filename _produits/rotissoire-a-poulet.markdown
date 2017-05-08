@@ -6,7 +6,7 @@ prix: 900000CFA
 label: 15%
 image: "/uploads/rotissoire%20poulet.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Equipements
+categories: Restauration
 marques: klimasan
 ---
 
