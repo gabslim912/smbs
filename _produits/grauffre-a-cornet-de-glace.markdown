@@ -6,7 +6,7 @@ prix: 650000CFA
 label: 10%OFF
 image: "/uploads/GAUFFIER%20A%20CORNET%20GLACE.bmp"
 fiche: "/uploads/fiche.jpg"
-categories: Equipements
+categories: Restauration
 marques: nemox
 ---
 
