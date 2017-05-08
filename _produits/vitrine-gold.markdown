@@ -4,7 +4,7 @@ date: 2017-04-22 21:10:00 Z
 faux _prix: 35000000FCFA
 prix: 25000000FCFA
 label: 20%
-image: "/uploads/7400NT_GOLD.png"
+image: "/uploads/vitrine%20gold.jpg"
 fiche: "/uploads/fiche.jpg"
 categories: Froid
 ---
