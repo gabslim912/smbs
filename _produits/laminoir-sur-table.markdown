@@ -4,7 +4,7 @@ date: 2017-05-05 20:09:00 Z
 faux prix: 7500000CFA
 prix: 6000000CFA
 label: 15%
-image: "/uploads/laminoir%20sur%20table.jpg"
+image: "/uploads/laminoir-salva-a-poser-sur-table-ref203383--FR_PIM_396954001001_01.jpg"
 fiche: "/uploads/fiche.jpg"
 categories: Equipements
 marques: klimasan
