@@ -4,8 +4,7 @@ date: 2017-05-08 14:45:00 Z
 faux prix: 1500000CFA
 prix: 1000000CFA
 label: 10%OFF
-fiche: "/uploads/groupe-electrogene-fartools-118025.jpg"
-image: "/uploads/groupe-electrogene-fartools-118025.jpg"
+image: "/uploads/fiche.jpg"
 categories: Groupes
 marques: volvo
 ---
