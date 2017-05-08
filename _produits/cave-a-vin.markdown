@@ -6,7 +6,7 @@ prix: 1500000CFA
 label: 15%OFF
 image: "/uploads/cave%20cave.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Equipements
+categories: Froid
 marques: empero
 ---
 
