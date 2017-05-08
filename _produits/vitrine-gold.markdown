@@ -9,4 +9,4 @@ fiche: "/uploads/fiche.jpg"
 categories: Froid
 ---
 
-vitrine deux portes réfrigérer positive,Une vitrine est l'espace aménagé d'un magasin rendant visible depuis la voie publique ou les allées intérieures les articles en vente dans ce commerce
+vitrine  à poser sont dédiées principalement pour présenter les produits tout en les maintenant au frais. Une vitrine est l'espace aménagé d'un magasin rendant visible depuis la voie publique ou les allées intérieures les articles en vente dans ce commerce
