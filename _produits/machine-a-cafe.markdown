@@ -6,7 +6,7 @@ prix: 1200000CFA
 label: 10%OFF
 image: "/uploads/Machines%20%C3%A0%20Caf%C3%A9.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Equipements
+categories: Restauration
 marques: frenox
 ---
 
