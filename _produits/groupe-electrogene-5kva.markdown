@@ -4,7 +4,7 @@ date: 2017-05-08 14:45:00 Z
 faux prix: 1500000CFA
 prix: 1000000CFA
 label: 10%OFF
-image: "/uploads/fiche.jpg"
+image: "/uploads/groupe-aclectrogane-essence.jpg"
 categories: Groupes
 marques: volvo
 ---
