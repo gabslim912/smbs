@@ -1,5 +1,5 @@
 ---
-title: Vitrine gold
+title: Vitrine expo
 date: 2017-04-22 21:10:00 Z
 faux _prix: 35000000FCFA
 prix: 25000000FCFA
