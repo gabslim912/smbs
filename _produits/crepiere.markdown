@@ -6,7 +6,7 @@ prix: 9500000CFA
 label: 15%
 image: "/uploads/crepiere-electrique-standard-ref31166--FR_PIM_228164001001_01.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Equipements
+categories: Restauration
 marques: empero
 ---
 
