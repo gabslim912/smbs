@@ -1,0 +1,242 @@
+<!-- section start -->
+<!-- ================ -->
+<section class="section light-gray-bg clearfix">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- pills start -->
+				<!-- ================ -->
+				<!-- Nav tabs -->
+				<ul class="nav nav-pills" role="tablist">
+					<li class="active"><a href="#pill-1" role="tab" data-toggle="tab" title="Tous"><i class="icon-star"></i> Froid</a></li>
+					<li><a href="#pill-2" role="tab" data-toggle="tab" title="Latest Arrivals"><i class="icon-star"></i> Equipements</a></li>
+					<li><a href="#pill-3" role="tab" data-toggle="tab" title="Featured"><i class="icon-star"></i> Groupes</a></li>
+					<li><a href="#pill-4" role="tab" data-toggle="tab" title="Featured"><i class="icon-star"></i> Fours</a></li>
+					<li><a href="#pill-5" role="tab" data-toggle="tab" title="Featured"><i class="icon-star"></i> Restauration</a></li>
+					<li><a href="#pill-6" role="tab" data-toggle="tab" title="Featured"><i class="icon-star"></i> Accessoires</a></li>
+					
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content clear-style">
+					<div class="tab-pane active" id="pill-1">
+						<div class="row masonry-grid-fitrows grid-space-10">
+						{% assign produits = site.produits | where:"categories", "Froid" %}
+						{% for produit in produits limit:6 %}
+                  <div class="col-md-4 col-sm-6 masonry-grid-item">
+                      <div class="listing-item white-bg bordered mb-20">
+                        <div class="overlay-container">
+                          <img src="{{ produit.image }}" alt="" style="width: 276px; height: 276px;">
+                          <a class="overlay-link" href="{{ produit.url }}" target="blank"><i class="fa fa-search-plus"></i></a>
+                          <span class="badge">{{ produit.label }}</span>
+                          <div class="overlay-to-top links">
+                            <span class="small">
+                              
+                              <a href="{{ produit.url }}" class="btn-sm-link"><i class="icon-link pr-5"></i>Voir le produit</a>
+                            </span>
+                          </div>
+                        </div>
+                        <div class="body default-bg">
+                          <h3><a href="{{ produit.url }}" target="blank">{{ produit.title }}</a></h3>
+                          
+                          <div class="elements-list clearfix">
+                            
+                            <a href="{{ produit.url }}" class="pull-right margin-clear btn btn-sm btn-default-transparent btn-animated" target="blank">Voir le produit<i class="fa fa-shopping-cart"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  {% endfor %} 
+						</div>
+					</div>
+					<div class="tab-pane" id="pill-2">
+						<div class="row masonry-grid-fitrows grid-space-10">
+						
+						{% assign produitss = site.produits | where:"categories", "Equipements" %}
+						{% for produit in produitss limit:6 %}
+                  <div class="col-md-4 col-sm-6 masonry-grid-item">
+                      <div class="listing-item white-bg bordered mb-20">
+                        <div class="overlay-container">
+                          <img src="{{ produit.image }}" alt="" style="width: 276px; height: 276px;">
+                          <a class="overlay-link" href="{{ produit.url }}" target="blank"><i class="fa fa-search-plus"></i></a>
+                          <span class="badge">{{ produit.label }}</span>
+                          <div class="overlay-to-top links">
+                            <span class="small">
+                              
+                              <a href="{{ produit.url }}" class="btn-sm-link"><i class="icon-link pr-5"></i>Voir le produit</a>
+                            </span>
+                          </div>
+                        </div>
+                        <div class="body default-bg">
+                          <h3><a href="{{ produit.url }}" target="blank">{{ produit.title }}</a></h3>
+                          
+                          <div class="elements-list clearfix">
+                            
+                            <a href="{{ produit.url }}" class="pull-right margin-clear btn btn-sm btn-default-transparent btn-animated" target="blank">Voir le produit<i class="fa fa-shopping-cart"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  {% endfor %} 
+						</div>
+					</div>
+					<div class="tab-pane" id="pill-3">
+						<div class="row masonry-grid-fitrows grid-space-10">
+						
+						{% assign produitsss = site.produits | where:"categories", "Groupes" %}
+						{% for produit in produitsss limit:6 %}
+	                  	<div class="col-md-4 col-sm-6 masonry-grid-item">
+	                      <div class="listing-item white-bg bordered mb-20">
+	                        <div class="overlay-container">
+	                          <img src="{{ produit.image }}" alt="" style="width: 276px; height: 276px;">
+	                          <a class="overlay-link" href="{{ produit.url }}" target="blank"><i class="fa fa-search-plus"></i></a>
+	                          <span class="badge">{{ produit.label }}</span>
+	                          <div class="overlay-to-top links">
+	                            <span class="small">
+	                              
+	                              <a href="{{ produit.url }}" class="btn-sm-link"><i class="icon-link pr-5"></i>Voir le produit</a>
+	                            </span>
+	                          </div>
+	                        </div>
+	                        <div class="body default-bg">
+	                          <h3><a href="{{ produit.url }}" target="blank">{{ produit.title }}</a></h3>
+	                          
+	                          <div class="elements-list clearfix">
+	                            
+	                            <a href="{{ produit.url }}" class="pull-right margin-clear btn btn-sm btn-default-transparent btn-animated" target="blank">Voir le produit<i class="fa fa-shopping-cart"></i></a>
+	                          </div>
+	                        </div>
+	                      </div>
+	                    </div>
+                    
+                  		{% endfor %} 
+						</div>
+					</div>
+					<div class="tab-pane" id="pill-4">
+						<div class="row masonry-grid-fitrows grid-space-10">
+						
+						{% assign produitssss = site.produits | where:"categories", "Fours" %}
+						{% for produit in produitssss limit:6 %}
+	                  	<div class="col-md-4 col-sm-6 masonry-grid-item">
+	                      <div class="listing-item white-bg bordered mb-20">
+	                        <div class="overlay-container">
+	                          <img src="{{ produit.image }}" alt="" style="width: 276px; height: 276px;">
+	                          <a class="overlay-link" href="{{ produit.url }}" target="blank"><i class="fa fa-search-plus"></i></a>
+	                          <span class="badge">{{ produit.label }}</span>
+	                          <div class="overlay-to-top links">
+	                            <span class="small">
+	                              
+	                              <a href="{{ produit.url }}" class="btn-sm-link"><i class="icon-link pr-5"></i>Voir le produit</a>
+	                            </span>
+	                          </div>
+	                        </div>
+	                        <div class="body default-bg">
+	                          <h3><a href="{{ produit.url }}" target="blank">{{ produit.title }}</a></h3>
+	                          
+	                          <div class="elements-list clearfix">
+	                            
+	                            <a href="{{ produit.url }}" class="pull-right margin-clear btn btn-sm btn-default-transparent btn-animated" target="blank">Voir le produit<i class="fa fa-shopping-cart"></i></a>
+	                          </div>
+	                        </div>
+	                      </div>
+	                    </div>
+                    
+                  		{% endfor %} 
+						</div>
+					</div>
+					<div class="tab-pane" id="pill-5">
+						<div class="row masonry-grid-fitrows grid-space-10">
+						
+						{% assign produitsssss = site.produits | where:"categories", "Restauration" %}
+						{% for produit in produitsssss limit:6 %}
+	                  	<div class="col-md-4 col-sm-6 masonry-grid-item">
+	                      <div class="listing-item white-bg bordered mb-20">
+	                        <div class="overlay-container">
+	                          <img src="{{ produit.image }}" alt="" style="width: 276px; height: 276px;">
+	                          <a class="overlay-link" href="{{ produit.url }}" target="blank"><i class="fa fa-search-plus"></i></a>
+	                          <span class="badge">{{ produit.label }}</span>
+	                          <div class="overlay-to-top links">
+	                            <span class="small">
+	                              
+	                              <a href="{{ produit.url }}" class="btn-sm-link"><i class="icon-link pr-5"></i>Voir le produit</a>
+	                            </span>
+	                          </div>
+	                        </div>
+	                        <div class="body default-bg">
+	                          <h3><a href="{{ produit.url }}" target="blank">{{ produit.title }}</a></h3>
+	                          
+	                          <div class="elements-list clearfix">
+	                            
+	                            <a href="{{ produit.url }}" class="pull-right margin-clear btn btn-sm btn-default-transparent btn-animated" target="blank">Voir le produit<i class="fa fa-shopping-cart"></i></a>
+	                          </div>
+	                        </div>
+	                      </div>
+	                    </div>
+                    
+                  		{% endfor %} 
+						</div>
+					</div>
+					<div class="tab-pane" id="pill-6">
+						<div class="row masonry-grid-fitrows grid-space-10">
+						
+						{% assign produitssssss = site.produits | where:"categories", "Accessoires" %}
+						{% for produit in produitssssss limit:6 %}
+	                  	<div class="col-md-4 col-sm-6 masonry-grid-item">
+	                      <div class="listing-item white-bg bordered mb-20">
+	                        <div class="overlay-container">
+	                          <img src="{{ produit.image }}" alt="" style="width: 276px; height: 276px;">
+	                          <a class="overlay-link" href="{{ produit.url }}" target="blank"><i class="fa fa-search-plus"></i></a>
+	                          <span class="badge">{{ produit.label }}</span>
+	                          <div class="overlay-to-top links">
+	                            <span class="small">
+	                              
+	                              <a href="{{ produit.url }}" class="btn-sm-link"><i class="icon-link pr-5"></i>Voir le produit</a>
+	                            </span>
+	                          </div>
+	                        </div>
+	                        <div class="body default-bg">
+	                          <h3><a href="{{ produit.url }}" target="blank">{{ produit.title }}</a></h3>
+	                          
+	                          <div class="elements-list clearfix">
+	                            
+	                            <a href="{{ produit.url }}" class="pull-right margin-clear btn btn-sm btn-default-transparent btn-animated" target="blank">Voir le produit<i class="fa fa-shopping-cart"></i></a>
+	                          </div>
+	                        </div>
+	                      </div>
+	                    </div>
+                    
+                  		{% endfor %} 
+						</div>
+					</div>
+					
+				</div>
+				<!-- pills end -->
+			</div>
+		</div>
+	</div>
+</section>
+<!-- section end -->
+<!-- section start -->
+			<!-- ================ -->
+			<section class="section dark-translucent-bg" style="background-image:url('{{ site.parallax3 }}');background-position: 50% 32%;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="call-to-action text-center">
+								<div class="row">
+									<div class="col-sm-8">
+										<h1 class="title">Voir tous les produits</h1>
+									</div>
+									<div class="col-sm-4">
+										
+										<p><a href="/produits.html" class="btn btn-lg btn-default btn-animated" target="blank">Voir Plus<i class="fa fa-arrow-right pl-20"></i></a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- section end -->
+			<div class="clearfix visible-md"></div>
