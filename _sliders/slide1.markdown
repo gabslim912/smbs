@@ -5,5 +5,5 @@ text: Recevez <span class="text-default">25%</span> de réduction<br> Soldes est
 image: "/uploads/slider12.jpg"
 ---
 
- la S.M.B.S  meilleures de la capitale sénégalaise Optimisez vos investissements,> Il vous suffit d'un clic  
+ la S.M.B.S  meilleure de la capitale sénégalaise Optimisez vos investissements,> Il vous suffit d'un clic  
 <br/> l’installation des équipements sécuriser diversité de produit. décidé en toute simplicité <br/> ayez un coup d'avance sur le marche.
