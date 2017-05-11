@@ -6,4 +6,4 @@ image: "/uploads/slider12.jpg"
 ---
 
  la S.M.B.S  meilleure de la capitale sénégalaise Optimisez vos investissements,> Il vous suffit d'un clic  
-<br/> l’installation des équipements sécuriser diversité de produit. décidé en toute simplicité <br/> ayez un coup d'avance sur le marche.
+<br/> l’installation des équipements sécuriser diversité de produits. décidé en toute simplicité <br/> ayez un coup d'avance sur le marche.
