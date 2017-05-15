@@ -6,7 +6,7 @@ prix: 400000CFA
 label: 10%OFF
 image: "/uploads/DIANE-INDUSTRIES-PLAQUE-PATISSERIE-SANS-PERFORATIONS.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Equipements
+categories: Accessoires
 marques: klimasan
 ---
 
