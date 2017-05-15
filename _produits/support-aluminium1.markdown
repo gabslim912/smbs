@@ -6,7 +6,7 @@ prix: 800000CFA
 label: 10%OFF
 image: "/uploads/support-de-cuisson-industriel-FIRST-TRAY-copie.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Equipements
+categories: Accessoires
 marques: klimasan
 ---
 
