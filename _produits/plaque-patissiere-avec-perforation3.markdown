@@ -6,7 +6,7 @@ prix: 400000CFA
 label: 12%OFF
 image: "/uploads/Plaque%20perfor.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Equipements
+categories: Accessoires
 marques: salva
 ---
 
