@@ -1,12 +1,13 @@
 ---
 title: four europa
 date: 2017-04-28 19:13:00 Z
+categories:
+- Fours
 faux_prix: 20000000CFA
 prix: 18000000CFA
 label: 12%OFF
 image: "/uploads/Four%20EUROPA%2080X100.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Fours
 marques: empero
 ---
 

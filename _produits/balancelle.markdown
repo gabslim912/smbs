@@ -1,12 +1,13 @@
 ---
 title: balancelle 1
 date: 2017-05-03 18:05:00 Z
+categories:
+- Equipements
 faux prix: 8000000CFA
 prix: 6500000CFA
 label: 15%
 image: "/uploads/balancelles%20.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Equipements
 marques: volvo
 ---
 

@@ -1,12 +1,13 @@
 ---
 title: Batteur escher 60L
 date: 2017-05-05 14:41:00 Z
+categories:
+- Equipements
 faux prix: 28000000CFA
 prix: 23000000CFA
 label: 10% OFF
 image: "/uploads/batteur%2060%20l.png"
 fiche: "/uploads/fiche.jpg"
-categories: Equipements
 marques: escher
 ---
 

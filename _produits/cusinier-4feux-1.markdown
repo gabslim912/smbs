@@ -1,12 +1,13 @@
 ---
 title: cusinier 4feux 1
 date: 2017-05-07 19:01:00 Z
+categories:
+- Restauration
 faux prix: 2200000CFA
 prix: 1800000CFA
 label: 12%
 image: "/uploads/9KG021.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Restauration
 marques: empero
 ---
 

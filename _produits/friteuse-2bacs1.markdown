@@ -1,12 +1,13 @@
 ---
 title: friteuse 2bacs1
 date: 2017-05-07 18:54:00 Z
+categories:
+- Restauration
 faux prix: 750000CFA
 prix: 550000CFA
 label: 15%
 image: "/uploads/7FG020%20FRITEUSE%20GAZ%202%20BACS.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Restauration
 marques: empero
 ---
 

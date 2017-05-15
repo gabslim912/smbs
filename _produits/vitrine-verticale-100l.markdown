@@ -1,12 +1,13 @@
 ---
 title: vitrine verticale 100L
 date: 2017-05-06 20:14:00 Z
+categories:
+- Froid
 faux prix: 
 prix: 
 label: 10%
 image: "/uploads/41532099-Caravell-frigo-boissons-440x320.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Froid
 marques: ugur
 ---
 

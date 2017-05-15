@@ -1,12 +1,13 @@
 ---
 title: vitrine réfrigérée patisserie1
 date: 2017-04-28 19:32:00 Z
+categories:
+- Froid
 faux_prix: 1500000CFA
 prix: 1000000FCA
 label: 10%OFF
 image: "/uploads/vitrine-boulangerie-patisserie-5589149.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Froid
 marques: infrico
 ---
 
