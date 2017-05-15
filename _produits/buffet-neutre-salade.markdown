@@ -1,12 +1,13 @@
 ---
 title: buffet neutre salade
 date: 2017-05-08 03:48:00 Z
+categories:
+- Restauration
 faux prix: 2000000CFA
 prix: 1500000CFA
 label: 15%OFF
 image: "/uploads/EMP.SB.06-N%20Buffet%20salade%20bar%20neutre%20granite.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Restauration
 marques: empero
 ---
 

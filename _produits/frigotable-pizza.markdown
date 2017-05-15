@@ -1,12 +1,13 @@
 ---
 title: frigotable pizza
 date: 2017-05-07 17:42:00 Z
+categories:
+- Froid
 faux prix: 3500000CFA
 prix: 2800000CFA
 label: 20%OFF
 image: "/uploads/frigo%20table%20pizza%20ftp200cm.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Froid
 marques: frenox
 ---
 

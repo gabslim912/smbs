@@ -1,12 +1,13 @@
 ---
 title: chambre de pousse
 date: 2017-05-03 15:46:00 Z
+categories:
+- Fours
 faux prix: 50000000CFA
 prix: 450000000CFA
 label: 15%
 image: "/uploads/chambre%20de%20pousse%2084limidi.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Fours
 marques: garbin
 ---
 

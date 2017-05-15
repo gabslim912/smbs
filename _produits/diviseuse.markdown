@@ -1,12 +1,13 @@
 ---
 title: diviseuse
 date: 2017-05-05 15:23:00 Z
+categories:
+- Equipements
 faux prix: 65000000CFA
 prix: 50000000CFA
 label: 15%
 image: "/uploads/div_big.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Equipements
 marques: garbin
 ---
 
