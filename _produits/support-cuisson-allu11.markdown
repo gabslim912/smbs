@@ -6,7 +6,7 @@ prix: 400000CFA
 label: 12%OFF
 image: "/uploads/support%20de%20cuisson%20alu.bmp"
 fiche: "/uploads/fiche.jpg"
-categories: Equipements
+categories: Accessoires
 marques: nemox
 ---
 
