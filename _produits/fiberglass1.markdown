@@ -10,4 +10,4 @@ categories: Accessoires
 marques: klimasan
 ---
 
-Découvrez notre Filets de cuisson FIBERMAX/FIBERGLASS pour votre boulangerie-pâtisserie. Barresi, le spécialiste du Matériel de Boulangerie et Pâtisserie
+Découvrez notre Filets de cuisson FIBERGLASS pour votre boulangerie-pâtisserie.Le Fiberglass a été spécialement conçu pour les pâtes crues surgelées
