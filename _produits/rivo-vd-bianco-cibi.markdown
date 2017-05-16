@@ -1,5 +1,5 @@
 ---
-title: rivo vd bianco cibi
+title: rivo vd bianco cibi a2
 date: 2017-05-16 12:47:00 Z
 faux prix: 1500000CFA
 prix: 1200000CFA
