@@ -4,7 +4,7 @@ date: 2017-05-16 11:46:00 Z
 faux prix: 1200000CFA
 prix: 1000000CFA
 label: 10%OFF
-image: "/uploads/vitrine_evo_e1.jpg"
+image: "/uploads/seda-vitrine-patissiere-droite-evo-k-service-arriere.jpg"
 fiche: "/uploads/fiche.jpg"
 categories: Froid
 marques: infrico
