@@ -1,5 +1,5 @@
 ---
-title: vitrine vulcano carn
+title: vitrine vulcano carn V2
 date: 2017-05-16 13:28:00 Z
 faux prix: 2000000CFA
 prix: 1500000CFA
