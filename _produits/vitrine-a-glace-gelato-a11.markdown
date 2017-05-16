@@ -4,7 +4,7 @@ date: 2017-05-16 13:08:00 Z
 faux prix: 1500000CFA
 prix: 1200000CFA
 label: 12%OFF
-image: "/uploads/Gelato-in-showcase.jpg"
+image: "/uploads/RIVO_VD_ROSSO_CIBI.png"
 fiche: "/uploads/fiche.jpg"
 categories: Froid
 marques: infrico
