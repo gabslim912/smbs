@@ -4,7 +4,7 @@ date: 2017-05-16 11:57:00 Z
 faux prix: 1200000CFA
 prix: 1100000CFA
 label: 10%OFF
-image: "/uploads/vitrine_evo_c.jpg"
+image: "/uploads/LIDO_SL%20CIBI.png"
 fiche: "/uploads/fiche.jpg"
 categories: Froid
 marques: infrico
