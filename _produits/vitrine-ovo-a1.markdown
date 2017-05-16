@@ -1,5 +1,5 @@
 ---
-title: vitrine ovo a1
+title: vitrine ovo lido a1
 date: 2017-05-16 12:03:00 Z
 faux prix: 2400000CFA
 prix: 1800000CFA
