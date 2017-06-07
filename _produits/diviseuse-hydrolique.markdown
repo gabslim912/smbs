@@ -1,12 +1,13 @@
 ---
 title: diviseuse hydrolique12
 date: 2017-05-09 14:29:00 Z
+categories:
+- Equipements
 faux prix: 12000000CFA
 prix: 11000000CFA
 label: 5%
 image: "/uploads/diviseuse.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Equipements
 marques: klimasan
 ---
 

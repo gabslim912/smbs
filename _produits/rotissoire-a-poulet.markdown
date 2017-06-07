@@ -1,12 +1,13 @@
 ---
 title: rôtissoire à poulet
 date: 2017-05-05 20:22:00 Z
+categories:
+- Restauration
 faux prix: 1400000CFA
 prix: 900000CFA
 label: 15%
 image: "/uploads/rotissoire%20poulet.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Restauration
 marques: klimasan
 ---
 

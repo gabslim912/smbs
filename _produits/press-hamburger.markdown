@@ -1,12 +1,13 @@
 ---
 title: press hamburger
 date: 2017-05-08 04:03:00 Z
+categories:
+- Restauration
 faux prix: 950000CFA
 prix: 800000
 label: 10%
 image: "/uploads/PRESS%20HAMBURGER.jpg"
 fiche: "/uploads/fiche.jpg"
-categories: Restauration
 marques: empero
 ---
 
