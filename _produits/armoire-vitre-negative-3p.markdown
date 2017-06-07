@@ -1,13 +1,12 @@
 ---
 title: armoire vitre negative 3p
 date: 2017-05-03 16:42:00 Z
-categories:
-- Froid
 faux prix: 3000000CFA
 prix: 2500000CFA
 label: 10% OFF
 image: "/uploads/AKN3P.jpg"
 fiche: "/uploads/fiche.jpg"
+categories: Froid
 marques: ugur
 ---
 

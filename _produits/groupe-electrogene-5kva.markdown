@@ -1,13 +1,12 @@
 ---
 title: groupe électrogène 5kva
 date: 2017-05-08 14:45:00 Z
-categories:
-- Groupes
 faux prix: 1500000CFA
 prix: 1000000CFA
 label: 10%OFF
 image: "/uploads/groupe-aclectrogane-essence.jpg"
 fiche: "/uploads/fiche.jpg"
+categories: Groupes
 marques: volvo
 ---
 

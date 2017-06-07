@@ -1,13 +1,12 @@
 ---
 title: hotte8
 date: 2017-05-08 19:07:00 Z
-categories:
-- Restauration
 faux prix: 950000CFA
 prix: 800000CFA
 label: 10%OFF
 image: "/uploads/hoote.jpg"
 fiche: "/uploads/fiche.jpg"
+categories: Restauration
 marques: nemox
 ---
 

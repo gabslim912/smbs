@@ -1,13 +1,12 @@
 ---
 title: groupe electrogene 69KVA
 date: 2017-05-08 13:08:00 Z
-categories:
-- Groupes
 faux prix: 6000000CFA
 prix: 5000000CFA
 label: 20%
 image: "/uploads/DSC08615.JPG"
 fiche: "/uploads/fiche.jpg"
+categories: Groupes
 marques: volvo
 ---
 

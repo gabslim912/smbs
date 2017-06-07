@@ -1,13 +1,12 @@
 ---
 title: machine lave vaiselle13
 date: 2017-05-08 12:33:00 Z
-categories:
-- Restauration
 faux prix: 1500000CFA
 prix: 1200000CFA
 label: 15%OFF
 image: "/uploads/th.jpg"
 fiche: "/uploads/fiche.jpg"
+categories: Restauration
 marques: empero
 ---
 

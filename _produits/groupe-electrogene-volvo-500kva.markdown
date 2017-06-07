@@ -1,13 +1,12 @@
 ---
 title: groupe électrogène volvo 500kva
 date: 2017-05-08 14:25:00 Z
-categories:
-- Groupes
 faux prix: 18000000CFA
 prix: 17500000CFA
 label: 5%OFF
 image: "/uploads/GE%20500KVA%20VOLVO%20PENTA.JPG"
 fiche: "/uploads/fiche.jpg"
+categories: Groupes
 marques: volvo
 ---
 

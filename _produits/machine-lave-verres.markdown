@@ -1,13 +1,12 @@
 ---
 title: machine lave verres
 date: 2017-05-08 12:48:00 Z
-categories:
-- Restauration
 faux prix: 2800000CFA
 prix: 2200000CFA
 label: 12%OFF
 image: "/uploads/LAVE%20VERRE%20th-6741be.jpg"
 fiche: "/uploads/fiche.jpg"
+categories: Restauration
 marques: empero
 ---
 

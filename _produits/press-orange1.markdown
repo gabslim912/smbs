@@ -1,13 +1,12 @@
 ---
 title: press orange1
 date: 2017-05-08 12:24:00 Z
-categories:
-- Restauration
 faux prix: 900000CFA
 prix: 800000CFA
 label: 10%
 image: "/uploads/Press%20orange%20machine.jpg"
 fiche: "/uploads/fiche.jpg"
+categories: Restauration
 marques: empero
 ---
 

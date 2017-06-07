@@ -1,12 +1,11 @@
 ---
 title: réfrigérateur a boisson3P1
 date: 2017-05-06 19:52:00 Z
-categories:
-- "/uploads/fiche.jpg"
 faux prix: 1200000CFA
 prix: 1000000CFA
 label: 10%OFF
 image: "/uploads/refrigerateur-a-boissons-3-portes-gbc1003-ref123527.jpg"
+categories: "/uploads/fiche.jpg"
 marques: infrico
 ---
 

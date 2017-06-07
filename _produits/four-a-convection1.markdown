@@ -1,13 +1,12 @@
 ---
 title: four a convection1
 date: 2017-05-03 16:32:00 Z
-categories:
-- Fours
 faux prix: 6500000CFA
 prix: 6000000CFA
 label: 5%OFF
 image: "/uploads/four_convection_express_01.jpg"
 fiche: "/uploads/fiche.jpg"
+categories: Fours
 marques: salva
 ---
 
